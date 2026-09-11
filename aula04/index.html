@@ -52,5 +52,51 @@
         </fieldset>
         <button type="submit">Enviar mensagem</button>
     </form>
+
+    <h2 id="Mod">Mod de The Binding of Isaac</h2>
+    <form action="#" method="post" id="form">
+        <fieldset>
+            <legend>Dados do criador</legend>
+            <label for="nome-cad">Nome: </label>
+            <input type="text" id="nome-cad">
+            <br><br>
+            <label for="email-cad">Email:  </label>
+            <input type="email" id="email-cad">
+        </fieldset>
+        <fieldset>
+            <legend>Dados do mod</legend>
+            <label for="nome-mod">Nome: </label>
+            <input type="text" id="nome-mod">
+            <br><br>
+            <label for="versao-mod">Versao do mod: </label>
+            <input type="number" id="versao-mod">
+            <br><br>
+            <label for="versao-isaac">Versao do Isaac: </label>
+            <select name="versao-isaac" id="versao-isaac">
+                <option value="">Selecione uma opção</option>
+                <option value="afterbirth+">Afterbirth+</option>
+                <option value="repentance">Repentance</option>
+                <option value="repentance+">Repentace+</option>
+            </select>
+            <br><br>
+            <label for="categorias">Categorias: </label>
+            <label for="opc-check-01">
+                <input type="checkbox" name="rework" id="opc-check-01"> Rework
+            </label>
+            <label for="opc-check-02">
+                <input type="checkbox" name="graphics" id="opc-check-02"> Graphics
+            </label>
+            <label for="opc-check-03">
+                <input type="checkbox" name="tweaks" id="opc-check-03"> Tweaks
+            </label>
+            <label for="opc-check-04">
+                <input type="checkbox" name="familiars" id="opc-check-04"> Familiars
+            </label>
+            <label for="opc-check-05">
+                <input type="checkbox" name="music" id="opc-check-05"> Music
+            </label>
+            <label for="repetogon">Precisa do Repetogon: </label>
+        </fieldset>
+    </form>
 </body>
 </html>
